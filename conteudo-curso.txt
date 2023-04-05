@@ -1,0 +1,8 @@
+- Quando utilizamos uma palavra reservada juntamente com ::, estamos dizendo que queremos acessar uma classe e utilizaremos um método estático dela - Ex: Route::get() - nesse exemplo estamos acessando a classe Route e utilizando seu método estático get()
+
+- O helper view() renderiza uma view
+
+- O fluxo de dados do laravel começa pela rota, passa pelo controller e finaliza na view
+
+- Estrutura de uma rota laravel: Route::get('nomeUrl', [NomeController::class, 'nomeMetodo'])->name('nomeRota');
+
